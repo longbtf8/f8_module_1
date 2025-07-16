@@ -35,11 +35,11 @@
   referrerpolicy="no-referrer"
 />
 
-    <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-Csggwj-p.js"></script>
-    <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-Dqv9xJwY.css">
+    <script type="module" crossorigin src="/f8-zoom-module-1/assets/main-CZ3xCmlz.js"></script>
+    <link rel="stylesheet" crossorigin href="/f8-zoom-module-1/assets/main-BzzG7ReQ.css">
   </head>
   <body>
-    <div class="wrapper">
+    <div class="about__wrapper">
       <header class="header">
   <div class="container">
     <div class="row">
@@ -54,41 +54,145 @@
       </div>
       <div class="d-none col-8 d-lg-block col-sm-7 col-xs-4">
         <div class="header__menu">
-          <img src="./img/Menu.svg" alt="Menu" />
+          <label for="header__menu">
+            <img src="./img/Menu.svg" alt="Menu" />
+          </label>
+          <input type="checkbox" id="header__menu" hidden />
+          <nav class="d-none">
+            <ul class="header__nav">
+              <li class="menu__parent">
+                <input type="checkbox" id="home_check" hidden />
+                <a href="../index.html"
+                  >Home
+                  <div class="wrap__item">
+                    <label for="home_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">Home 1</a></li>
+                  <li><a href="#">Home 2</a></li>
+                  <li><a href="#">Home 3</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="about_check" hidden />
+                <a href="../about.html"
+                  >About
+                  <div class="wrap__item">
+                    <label for="about_check">
+                      <i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">About 1</a></li>
+                  <li><a href="#">About 2</a></li>
+                  <li><a href="#">About 3</a></li>
+                  <li><a href="#">About 4</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="pa_check" hidden />
+                <a href="../practice.html"
+                  >Practice Areas
+                  <div class="wrap__item">
+                    <label for="pa_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">Divorce</a></li>
+                  <li><a href="#">Personal Injury</a></li>
+                  <li><a href="#">Employment</a></li>
+                  <li><a href="#">Immigration</a></li>
+                  <li><a href="#">Family</a></li>
+                  <li><a href="#">Property</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <a href="#">Attorneys </a>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="page_check" hidden />
+                <a href="../page.html">
+                  Page
+                  <div class="wrap__item">
+                    <label for="page_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="../blog.html">Blog</a></li>
+                  <li><a href="../contact.html">Contact</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">404</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="col-7 d-lg-none">
+
+      <div class="col-7 d-lg-none col-lg-12">
         <nav>
           <ul class="header__nav">
-            <li>
+            <li class="menu__parent">
               <a href="../index.html"
                 >Home
                 <i class="fa-solid fa-chevron-down"></i>
               </a>
+              <ul class="menu__list">
+                <li><a href="#">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+                <li><a href="#">Home 3</a></li>
+              </ul>
             </li>
-            <li>
-              <a href=""
+            <li class="menu__parent">
+              <a href="../about.html"
                 >About
                 <i class="fa-solid fa-chevron-down"></i>
               </a>
+              <ul class="menu__list">
+                <li><a href="#">About 1</a></li>
+                <li><a href="#">About 2</a></li>
+                <li><a href="#">About 3</a></li>
+                <li><a href="#">About 4</a></li>
+              </ul>
             </li>
-            <li>
-              <a href=""
+            <li class="menu__parent">
+              <a href="../practice.html"
                 >Practice Areas
                 <i class="fa-solid fa-chevron-down"></i>
               </a>
+              <ul class="menu__list">
+                <li><a href="#">Divorce</a></li>
+                <li><a href="#">Personal Injury</a></li>
+                <li><a href="#">Employment</a></li>
+                <li><a href="#">Immigration</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Property</a></li>
+              </ul>
             </li>
-            <li>
-              <a href=""
-                >Attorneys
+            <li class="menu__parent">
+              <a href="#">Attorneys </a>
+            </li>
+            <li class="menu__parent">
+              <a href="../page.html">
+                Page
                 <i class="fa-solid fa-chevron-down"></i>
               </a>
-            </li>
-            <li>
-              <a href=""
-                >Page
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
+              <ul class="menu__list">
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">404</a></li>
+                <li><a href="#">Coming Soon</a></li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -102,72 +206,290 @@
   </div>
 </header>
 
-      <main><!-- content-2 -->
-<div class="home__content-2">
+      <main>
+        <!-- about__header -->
+        <div class="about__header">
+          <div class="container">
+            <p>#1 Law Firm in New York</p>
+            <h1>Where The Experience To Guide You</h1>
+            <p>
+              A law firm with deep expertise in New Jersey residential &
+              investment property transactions and many other things.
+            </p>
+          </div>
+        </div>
+        <!-- end about__header -->
+        <!-- content-1 -->
+        <div class="about__content-1">
+          <div class="home__content-3">
+            <div class="container">
+              <div class="row gx-5 gy-lg-5 gx-lg-0">
+                <div class="col-6 col-xl-7 col-lg-12">
+                  <div class="content-3__intro">
+                    <p>#Story</p>
+                    <h2>Through And Complete Attention to Law</h2>
+                    <p>
+                      Your initial meeting with Parmele Law Firm sets in motion
+                      the difficult – and tedious – process of getting your
+                      benefits for you.
+                    </p>
+                    <p>
+                      While Mr. Parmele, his paralegals, and clerks are busy
+                      assisting you with your forms, helping you assemble your
+                      documentation, and keeping you updated regularly, Mr.
+                      Parmele is busy behind the scenes, focusing on winning
+                      your case.
+                    </p>
+                    <p>How your case ends up may well be up to you.</p>
+                  </div>
+                </div>
+                <div class="col-6 col-xl-5 col-lg-12">
+                  <div class="content-3__person">
+                    <img src="./img/about__content-1.png" alt="person" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end-content-1 -->
+
+        <!-- content-2 -->
+        <div class="about___content-2">
+          <div class="container">
+            <div class="content-2__title">
+              <p>#Gallery</p>
+              <h2>Justice Law Firm</h2>
+              <p>
+                Our Law Office provides a professional experience for all our
+                clients, helping them navigate their legal rights.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="content-2__img">
+                  <img src="./img/about_content_2.png" alt="room" />
+                </div>
+              </div>
+            </div>
+            <div class="content-2__dot">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-solid fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-circle"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-circle"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--end-content-2 -->
+        <!-- content-3 -->
+        <div class="about__content-3">
+          <div class="container">
+            <div class="wrap__about-3">
+              <div class="row row-cols-sm-1">
+                <div class="col-3">
+                  <div class="about_doc">
+                    <span>1782</span>
+                    <span>Law Cases</span>
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <div class="about_doc">
+                    <span>10+</span>
+                    <span>Lawyer</span>
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <div class="about_doc">
+                    <span>98%</span>
+                    <span>Happy Clients</span>
+                  </div>
+                </div>
+
+                <div class="col-3">
+                  <div class="about_doc about_doc_1">
+                    <span>90%</span>
+                    <span>Winning case</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end content-3 -->
+        <!-- content-4 -->
+        <div class="about___content-2">
+          <div class="container">
+            <div class="content-2__title">
+              <p>#Video</p>
+              <h2>Our History & Mission</h2>
+              <p>
+                Our Law Office provides a professional experience for all our
+                clients, helping them navigate their legal rights.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="content-2__img">
+                  <img src="./img/about_content4.png" alt="video" />
+                  <img
+                    class="play_video"
+                    src="./img/play_video.svg"
+                    alt="play"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end-content-4 -->
+        <!-- content-5 -->
+        <div class="list_team">
   <div class="container">
-    <div class="content-2__title">
-      <p>#Services</p>
-      <h2>Our Practice Areas</h2>
+    <div class="list_team__text">
+      <p>#Team</p>
+      <h2>Meet With Lawyers</h2>
       <p>
-        Our Law Office provides a professional experience for all our clients,
-        helping them navigate their legal rights.
+        Our team of experienced team more than $150 Million in Settlements and
+        Judgments for Our Clients
       </p>
     </div>
-    <div class="row gy-4 row-cols-lg-2 row-cols-md-1">
+    <div class="row row-cols-lg-2 row-cols-md-1 gy-3">
       <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-1.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Personal Injury Law</a>
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-1.png" alt="person" />
+            <button>View Profile</button>
           </div>
+          <h3>David Warner</h3>
+          <p>Attorney at Law</p>
         </div>
       </div>
       <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-2.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Employment Law</a>
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-2.png" alt="person" />
+            <button>View Profile</button>
           </div>
+          <h3>Aaron Finch</h3>
+          <p>Founding President</p>
         </div>
       </div>
       <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-3.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Immigration Law</a>
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-3.png" alt="person" />
+            <button>View Profile</button>
           </div>
+          <h3>Jamie Watts</h3>
+          <p>Partner</p>
         </div>
       </div>
       <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-4.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Family Law</a>
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-4.png" alt="person" />
+            <button>View Profile</button>
           </div>
+          <h3>Ellyse Perry</h3>
+          <p>Associate Attorney</p>
+        </div>
+      </div>
+      <div class="col-4 d-sm-none">
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-5.png" alt="person" />
+            <button>View Profile</button>
+          </div>
+          <h3>Meg Lanning</h3>
+          <p>Senior Partner</p>
         </div>
       </div>
       <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-5.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Divorce Law</a>
+        <div class="list_team__card">
+          <div class="profile">
+            <img src="./img/list_team-6.png" alt="person" />
+            <button>View Profile</button>
+          </div>
+          <h3>Peter Siddle</h3>
+          <p>Of Counsel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- end-content-5 -->
+
+        <!-- content-6 -->
+        <div class="gift">
+  <div class="container">
+    <p>#Awards</p>
+    <h2>Our Honors & Awards</h2>
+    <div class="row row-cols-lg-2 gy-lg-3 row-cols-md-1">
+      <div class="col-3 order-md-1">
+        <div class="gift__item">
+          <div class="gift__item--bg">
+            <img src="./img/gift-1.png" alt="gift-1" />
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="content-2__card">
-          <img src="./img/content-2-6.png" alt="Personal Injury Law" />
-          <div class="info">
-            <a href="#">Property Law</a>
+      <div class="col-3 order-md-2">
+        <div class="gift__item">
+          <div class="gift__item--bg">
+            <img src="./img/gift-2.png" alt="gift-1" />
+          </div>
+        </div>
+      </div>
+      <div class="col-3 order-md-4">
+        <div class="gift__item">
+          <div class="gift__item--bg">
+            <img src="./img/gift-3.png" alt="gift-1" />
+          </div>
+        </div>
+      </div>
+      <div class="col-3 order-md-3">
+        <div class="gift__item">
+          <div class="gift__item--bg">
+            <img src="./img/gift-4.png" alt="gift-1" />
           </div>
         </div>
       </div>
     </div>
-    <button>View All</button>
   </div>
 </div>
-<!-- end-content-2 -->
-</main>
+
+        <!-- end-content-6 -->
+
+        <!-- content-7 -->
+        <div class="issue">
+  <div class="container">
+    <div class="wrap__issue">
+      <p>#CTA</p>
+      <h2>Dealing With a Issue?</h2>
+      <p>
+        Where every injury is personal. We are a different kind of law firm. Let
+        our small, passionate group of trial lawyers fight for your rights!
+      </p>
+      <button>Get a Consultations</button>
+    </div>
+  </div>
+</div>
+
+        <!-- end-content-7 -->
+      </main>
+      <!-- footer -->
       <footer class="footer">
   <div class="container">
     <div class="wrap__footer">
@@ -248,6 +570,7 @@
   </div>
 </footer>
 
+      <!-- end footer -->
     </div>
   </body>
 </html>
