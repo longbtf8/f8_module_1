@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <!-- Favicon -->
+<link
+  rel="icon"
+  type="image/png"
+  href="/f8_module_1/favicon/favicon-96x96.png"
+  sizes="96x96"
+/>
+<link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+<link rel="shortcut icon" href="./favicon/favicon.ico" />
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="./favicon/apple-touch-icon.png"
+/>
+<link rel="manifest" href="./favicon/site.webmanifest" />
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap"
+  rel="stylesheet"
+/>
+<!-- Icon -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+    <script type="module" crossorigin src="/f8_module_1/assets/main-CZ3xCmlz.js"></script>
+    <link rel="stylesheet" crossorigin href="/f8_module_1/assets/main-BzzG7ReQ.css">
+  </head>
+  <body>
+    <div class="home__wrapper">
+      <header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 d-lg-none">
+        <div class="header__logo">
+          <img src="./img/LogoWeb.svg" alt="Logo" />
+          <div class="logo__intro">
+            <div>Justice</div>
+            <p>Law Firm</p>
+          </div>
+        </div>
+      </div>
+      <div class="d-none col-8 d-lg-block col-sm-7 col-xs-4">
+        <div class="header__menu">
+          <label for="header__menu">
+            <img src="./img/Menu.svg" alt="Menu" />
+          </label>
+          <input type="checkbox" id="header__menu" hidden />
+          <nav class="d-none">
+            <ul class="header__nav">
+              <li class="menu__parent">
+                <input type="checkbox" id="home_check" hidden />
+                <a href="./index.html"
+                  >Home
+                  <div class="wrap__item">
+                    <label for="home_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">Home 1</a></li>
+                  <li><a href="#">Home 2</a></li>
+                  <li><a href="#">Home 3</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="about_check" hidden />
+                <a href="./about.html"
+                  >About
+                  <div class="wrap__item">
+                    <label for="about_check">
+                      <i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">About 1</a></li>
+                  <li><a href="#">About 2</a></li>
+                  <li><a href="#">About 3</a></li>
+                  <li><a href="#">About 4</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="pa_check" hidden />
+                <a href="./practice.html"
+                  >Practice Areas
+                  <div class="wrap__item">
+                    <label for="pa_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="#">Divorce</a></li>
+                  <li><a href="#">Personal Injury</a></li>
+                  <li><a href="#">Employment</a></li>
+                  <li><a href="#">Immigration</a></li>
+                  <li><a href="#">Family</a></li>
+                  <li><a href="#">Property</a></li>
+                </ul>
+              </li>
+              <li class="menu__parent">
+                <a href="#">Attorneys </a>
+              </li>
+              <li class="menu__parent">
+                <input type="checkbox" id="page_check" hidden />
+                <a href="./page.html">
+                  Page
+                  <div class="wrap__item">
+                    <label for="page_check"
+                      ><i class="fa-solid fa-chevron-down"></i
+                    ></label>
+                  </div>
+                </a>
+                <ul class="menu__list">
+                  <li><a href="./blog.html">Blog</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">404</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="col-7 d-lg-none col-lg-12">
+        <nav>
+          <ul class="header__nav">
+            <li class="menu__parent">
+              <a href="./index.html"
+                >Home
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="menu__list">
+                <li><a href="#">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+                <li><a href="#">Home 3</a></li>
+              </ul>
+            </li>
+            <li class="menu__parent">
+              <a href="./about.html"
+                >About
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="menu__list">
+                <li><a href="#">About 1</a></li>
+                <li><a href="#">About 2</a></li>
+                <li><a href="#">About 3</a></li>
+                <li><a href="#">About 4</a></li>
+              </ul>
+            </li>
+            <li class="menu__parent">
+              <a href="./practice.html"
+                >Practice Areas
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="menu__list">
+                <li><a href="#">Divorce</a></li>
+                <li><a href="#">Personal Injury</a></li>
+                <li><a href="#">Employment</a></li>
+                <li><a href="#">Immigration</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Property</a></li>
+              </ul>
+            </li>
+            <li class="menu__parent">
+              <a href="#">Attorneys </a>
+            </li>
+            <li class="menu__parent">
+              <a href="./page.html">
+                Page
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="menu__list">
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">404</a></li>
+                <li><a href="#">Coming Soon</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-3 col-md-4 offset-md-8 col-sm-5 col-xs-8">
+        <div class="header__call">
+          <p>Call : <b>(000) 123 456 789</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <!-- content-2 -->
+      <div class="news2">
+  <div class="news">
+    <div class="container">
+      <div class="wrap__news">
+        <div class="new__title">
+          <h1>Justice Law Firm Press Releases</h1>
+          <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Recent</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Oldest</a></li>
+          </ul>
+        </div>
+        <div class="row row-cols-lg-1 gy-lg-5 gy-md-4">
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/new__item-1.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/new__item-2.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/new__item-3.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- end content-2 -->
+
+      <!-- content-3 -->
+      <div class="blog__content-3">
+        <div class="container">
+          <div class="content-3 d-md-none">
+            <p>#Newsletter</p>
+            <h2>Subscribe Our Newsletter</h2>
+            <form action="">
+              <input type="email" placeholder="Enter your email" name="email" />
+              <button>Subscribe</button>
+            </form>
+            <p>The latest Law News. <a>Stright to your inbox</a></p>
+          </div>
+          <div class="d-none content-3-2 d-md-block">
+            <div class="issue">
+  <div class="container">
+    <div class="wrap__issue">
+      <p>#CTA</p>
+      <h2>Dealing With a Issue?</h2>
+      <p>
+        Where every injury is personal. We are a different kind of law firm. Let
+        our small, passionate group of trial lawyers fight for your rights!
+      </p>
+      <button>Get a Consultations</button>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+      <!--end- content-3 -->
+
+      <!-- content-4 -->
+      <div class="blog__content-4">
+        <div class="list_key">
+  <div class="news">
+    <div class="container">
+      <div class="wrap__news">
+        <div class="row gy-4 row-cols-lg-1 gy-lg-5 gy-md-4">
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-1.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-2.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-3.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-4.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-5.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-6.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-7.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-8.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="new__item">
+              <div class="item__img">
+                <img src="./img/list_key-9.png" alt="img_new-1" />
+              </div>
+              <div class="item__author">
+                <img src="./img/news_author.svg" alt="author" />
+                <div class="author__infor">
+                  <p><b>Mitchell Starc</b></p>
+                  <p>Attorney at Law</p>
+                </div>
+              </div>
+              <h3>5 Key Rules of Law in Our Society Must Know in 2022</h3>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <!-- end-content-4 -->
+      <!-- footer -->
+      <footer class="footer">
+  <div class="container">
+    <div class="wrap__footer">
+      <div class="row row-cols-md-2 gy-md-3 row-cols-sm-1 gy-sm-5">
+        <div class="col-2">
+          <div class="footer__item">
+            <h3>Justice</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Cookie Preferences</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="footer__item">
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about.html">About</a></li>
+              <li><a href="#">Practice Areas</a></li>
+              <li><a href="#">Attorneys</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="footer__item">
+            <h3>Justice</h3>
+            <ul>
+              <li>
+                <p>
+                  50 Harrison Street, PH Suite 445 Hoboken, NJ 07030 (000)
+                  123-4567 yourlawfirm22@gmail.com
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <div class="footer__map">
+            <img src="./img/footer__map.png" alt="map" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dash"></div>
+    <div class="wrap__footer-1">
+      <div class="row row-cols-sm-1">
+        <div class="col-6">
+          <div class="footer__logo">
+            <img src="./img/footer__logo.png" alt="logo" />
+            <div class="logo__intro">
+              <p>Copyright © 2022 UI HUT All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="list__mxh">
+            <div class="mxh">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="mxh">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="mxh">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="mxh">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <!-- end footer -->
+    </div>
+  </body>
+</html>
